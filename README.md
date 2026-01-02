@@ -165,20 +165,6 @@ Below are the actual results from a test run using `evaluate_metrics.py`. In thi
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please ensure your code follows the project's coding standards and includes appropriate tests.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -189,23 +175,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Developed by [oxhutnik](https://github.com/oxhutnik)**
 
----
-
-## 📧 Contact & Support
-
-If you encounter any issues or have questions:
-
-- Open an [Issue](https://github.com/oxhutnik/Chatbot-for-Minecraft-Server/issues)
-- Start a [Discussion](https://github.com/oxhutnik/Chatbot-for-Minecraft-Server/discussions)
-
----
-
-## ⭐ Show Your Support
-
-If you find this project useful, please consider giving it a star on GitHub! It helps others discover the project.
-
-[![GitHub stars](https://img.shields.io/github/stars/oxhutnik/Chatbot-for-Minecraft-Server?style=social)](https://github.com/oxhutnik/Chatbot-for-Minecraft-Server/stargazers)
-
----
-
-**Happy Gaming! 🎮**
