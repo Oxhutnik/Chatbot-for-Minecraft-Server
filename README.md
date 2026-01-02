@@ -23,6 +23,7 @@ The project follows a modular programming approach for better scalability, maint
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
 
+
 🚀 Key Features
 
     RAG Architecture: Retrieves accurate information from a custom knowledge base (PDF guide) to answer specific server-related questions (IP, rules, commands).
@@ -46,20 +47,20 @@ The project follows a modular programming approach for better scalability, maint
     ChromaDB: For vector storage and retrieval.
 
     LLMs: OpenAI GPT-4o & Google Gemini 2.5.
+```
 
 📦 Installation & Setup
 
     Clone the repository:
-    Bash
+```bash
 
 git clone [https://github.com/oxhutnik/Chatbot-for-Minecraft-Server.git](https://github.com/oxhutnik/Chatbot-for-Minecraft-Server.git)
 cd Chatbot-for-Minecraft-Server
-
+```
 Install dependencies:
-Bash
-
+```bash
 pip install -r requirements.txt
-
+```
 Configure API Keys: Create a .env file in the root directory and add your API keys:
 Code snippet
 
@@ -67,17 +68,15 @@ OPENAI_API_KEY=your_openai_api_key_here
 GOOGLE_API_KEY=your_google_api_key_here
 
 Run the Application: (Note: Run from the root directory)
-Bash
-
+```bash
     streamlit run app/streamlit_app.py
-
+```
 📊 Testing & Evaluation
 
 To benchmark the chatbot's accuracy against a ground-truth dataset, run the evaluation script located in the tests folder:
-Bash
-
+```bash
 python tests/evaluate_metrics.py
-
+```
 This script runs a test set of 49 questions against both models and calculates the F1 Score to ensure response quality.
 🏆 Benchmark Results
 
