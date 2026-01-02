@@ -20,7 +20,6 @@ The system features a **modular multi-model architecture**, allowing seamless sw
 - [Usage](#-usage)
 - [Testing](#-testing--evaluation)
 - [Benchmark Results](#-benchmark-results)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
