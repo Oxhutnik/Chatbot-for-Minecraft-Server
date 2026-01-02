@@ -22,7 +22,7 @@ The project follows a modular programming approach for better scalability, maint
 ├── .env                         # API Keys (Not shared)
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
-
+```
 
 🚀 Key Features
 
@@ -47,7 +47,7 @@ The project follows a modular programming approach for better scalability, maint
     ChromaDB: For vector storage and retrieval.
 
     LLMs: OpenAI GPT-4o & Google Gemini 2.5.
-```
+
 
 📦 Installation & Setup
 
