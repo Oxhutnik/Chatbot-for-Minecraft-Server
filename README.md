@@ -25,27 +25,17 @@ The project follows a modular programming approach for better scalability, maint
 ```
 
 🚀 Key Features
-
     RAG Architecture: Retrieves accurate information from a custom knowledge base (PDF guide) to answer specific server-related questions (IP, rules, commands).
-
     Multi-LLM Support: Supports both OpenAI (GPT-4o-mini) and Google (Gemini 2.5 Flash) with a modular backend.
-
     Conversational Memory: Remembers chat history to understand follow-up questions (e.g., "How do I claim?" -> "How do I delete it?").
-
     Smart Localization: Processes English documentation but enforces Turkish responses for local player support.
-
     Automated Testing: Includes a dedicated test module (tests/) to calculate Precision, Recall, and F1 Scores using an "LLM-as-a-Judge" approach.
 
 🛠️ Tech Stack
-
     Python 3.11+
-
     LangChain: For chain orchestration and RAG flow.
-
     Streamlit: For the interactive web interface.
-
     ChromaDB: For vector storage and retrieval.
-
     LLMs: OpenAI GPT-4o & Google Gemini 2.5.
 
 
