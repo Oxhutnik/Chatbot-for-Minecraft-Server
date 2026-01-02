@@ -53,8 +53,14 @@ To benchmark the chatbot's accuracy against a ground-truth dataset:
 python evaluate_metrics.py
 
 This script runs a test set of 50 questions against both models and calculates the F1 Score to ensure response quality.
-🤝 Contributing
+🏆 Benchmark Results
 
+Below are the actual results from a test run using evaluate_metrics.py with a dataset of 50 questions. In this specific scenario, Google Gemini achieved a higher accuracy in handling English-to-Turkish context switching.
+Model	True Positive (TP)	False Positive (FP)	False Negative (FN)	F1 Score
+Google (Gemini)	47	1	1	0.9792 👑
+OpenAI (GPT-4o)	44	2	3	0.9462
+
+> Note: Results represent a controlled test environment. The F1 Score reflects the model's ability to retrieve correct information from the PDF and generate accurate Turkish responses.
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Developed by oxhutnik
