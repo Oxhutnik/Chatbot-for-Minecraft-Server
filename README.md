@@ -27,7 +27,7 @@ The project follows a modular programming approach for better scalability, maint
 
     RAG Architecture: Retrieves accurate information from a custom knowledge base (PDF guide) to answer specific server-related questions (IP, rules, commands).
 
-    Multi-LLM Support: Supports both OpenAI (GPT-4o-mini) and Google (Gemini 1.5 Flash) with a modular backend.
+    Multi-LLM Support: Supports both OpenAI (GPT-4o-mini) and Google (Gemini 2.5 Flash) with a modular backend.
 
     Conversational Memory: Remembers chat history to understand follow-up questions (e.g., "How do I claim?" -> "How do I delete it?").
 
@@ -45,7 +45,7 @@ The project follows a modular programming approach for better scalability, maint
 
     ChromaDB: For vector storage and retrieval.
 
-    LLMs: OpenAI GPT-4o & Google Gemini 1.5.
+    LLMs: OpenAI GPT-4o & Google Gemini 2.5.
 
 📦 Installation & Setup
 
