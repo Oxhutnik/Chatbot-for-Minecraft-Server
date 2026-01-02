@@ -55,7 +55,7 @@ python evaluate_metrics.py
 This script runs a test set of 50 questions against both models and calculates the F1 Score to ensure response quality.
 🏆 Benchmark Results
 
-Below are the actual results from a test run using evaluate_metrics.py with a dataset of 50 questions. In this specific scenario, Google Gemini achieved a higher accuracy in handling English-to-Turkish context switching.
+Below are the actual results from a test run using evaluate_metrics.py with a dataset of 49 questions. In this specific scenario, Google Gemini achieved a higher accuracy in handling English-to-Turkish context switching.
 Model	True Positive (TP)	False Positive (FP)	False Negative (FN)	F1 Score
 Google (Gemini)	47	1	1	0.9792 👑
 OpenAI (GPT-4o)	44	2	3	0.9462
