@@ -53,7 +53,6 @@ The project follows a modular programming approach for better scalability, maint
 
     Clone the repository:
 ```bash
-
 git clone [https://github.com/oxhutnik/Chatbot-for-Minecraft-Server.git](https://github.com/oxhutnik/Chatbot-for-Minecraft-Server.git)
 cd Chatbot-for-Minecraft-Server
 ```
@@ -62,14 +61,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 Configure API Keys: Create a .env file in the root directory and add your API keys:
-Code snippet
-
+```text
 OPENAI_API_KEY=your_openai_api_key_here
 GOOGLE_API_KEY=your_google_api_key_here
-
+```
 Run the Application: (Note: Run from the root directory)
 ```bash
-    streamlit run app/streamlit_app.py
+streamlit run app/streamlit_app.py
 ```
 📊 Testing & Evaluation
 
@@ -91,3 +89,6 @@ OpenAI (GPT-4o)	44	2	3	0.9462
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Developed by oxhutnik
+
+
+
